@@ -134,5 +134,5 @@ class MCAPI():
 
 
 if __name__ == '__main__':
-    api = MCAPI("192.168.1.153", 8082, "VPM_US", "ee022ba73ec0b6bf4ac3eda73e76348374985001d1618107f5e9f4e66195935e")
+    api = MCAPI("<MC IP>", 8082, "<POLICY_NAME>", "<API Key>")
     api.get_socket()
